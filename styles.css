@@ -1,0 +1,12 @@
+header {
+    background-color: orange;
+    border-radius: 20px;
+}
+body {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+footer {
+    background-color: orange;
+    border-radius: 20px; 
+}
