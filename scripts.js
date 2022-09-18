@@ -1,1 +1,1 @@
- document.getElementById('modifieddate').textContent - new Date(document.lastModified);
+ document.getElementById('modifieddate').textContent - alert(document.lastModified);
