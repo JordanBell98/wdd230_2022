@@ -1,0 +1,21 @@
+@media only screen and (min-width:  32.5em) {
+#profile {
+    width: 125px;
+}
+header {
+    border-radius: 20px;
+    justify-items: normal;
+    align-items: normal;
+    padding-left: 1em;
+}
+header h1 {
+    font-size: 2em;
+}
+#lessons {
+    border-top: none;
+    border-bottom: none;
+}
+footer {
+    border-radius: 20px; 
+}
+}
