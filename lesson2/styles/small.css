@@ -1,0 +1,39 @@
+body{
+    display: grid;
+}
+.topbar {
+    display: span;
+    text-align: center;
+    color: white;
+    background-color: #0F2E69;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+.principle{
+    background-color: lightslategrey;
+    border: 2px solid black;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.principle img{
+    width: 100%;
+}
+footer {
+    display: grid;
+    background-color: orange;
+    border-radius: 0px;
+    font-family: 'Roboto Condensed', sans-serif; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
