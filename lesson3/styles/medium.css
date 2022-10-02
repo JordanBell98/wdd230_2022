@@ -1,0 +1,12 @@
+@media only screen and (min-width:  32.5em) {
+    nav ul {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    nav li a {
+        padding: 15px;
+    }
+    main img {
+        width: fit-content;
+    }
+}
