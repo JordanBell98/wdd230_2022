@@ -1,1 +1,1 @@
- document.getElementById('modifieddate').textContent - alert(document.lastModified);
+ document.getElementById('modifieddate').innerHTML = (document.lastModified);
