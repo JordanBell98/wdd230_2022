@@ -49,7 +49,7 @@ nav li a:hover {
     margin: 5px auto;
     background-color: #fff;
 }
-@media(max-width:768px) {
+@media(max-width: 60em) {
     .hamburger {
         display: block;
         padding-right: 25px;
@@ -90,10 +90,51 @@ nav li a:hover {
 }
 main {
     display: block;
+    margin: 10px;
 }
-main p {
+.main-grid {
     background-color: #00540b;
     color: #fff;
+    padding: 0 10px;
+}
+.main-grid h3 {
+    text-align: center;
+}
+#callToAction {
+    background-image: url("/images/IMG_0151-EFFECTS.jpg");
+    background-position: center;
+    background-size: 100%;
+}
+#callToAction h3{
+    color: white;
+    background-color: #00540b;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a.active {
+    text-decoration: none;
+    color: #fff;
+}
+#eventsList {
+    list-style-type: none;
+}
+#weather {
+    text-align: center;
+}
+#spotlights h4 {
+    text-align: center;
+}
+#spotlight1 {
+    background-color: #012e07;
+    margin: 10px;
+    padding: 10px;
+}
+#spotlight2 {
+    background-color: #012e07;
+    margin: 10px;
+    padding: 10px;   
 }
 footer {
     display: flex;
