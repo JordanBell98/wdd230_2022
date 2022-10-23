@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
     <script type="text/javascript" src="scripts/scripts.js"></script>
+    <script type="text/javascript" src="scripts/windchill.js"></script>
     <title>Chamber of Commerce site for Redmond OR by Jordan</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,7 @@
     <header>
         <nav class="navbar">
             <div class="logo">
-                <img src="images/travelredmond_logo.png">
+                <img src="images/travelredmond_logo.webp">
                 <section class="headings">
                     <h1>Redmond</h1>
                     <div id="chamber-of-commerce">Chamber of Commerce</div>
@@ -57,9 +58,10 @@
         </div>
         <div class="main-grid" id="weather">
             <h3>Weather</h3>
-            <img src="#" alt="">
-            <p>Cloudy</p>
-            <p>34F / 72F </p>
+            <img src="#" alt="weather icon">
+            <p>Cloudy <span id="temp">35</span>F</p>
+            <p>Wind Speed: <span id="wind-speed">5</span>mph</p>
+            <p>Wind Chill: <span id="wind-chill"></span></p>
         </div>
         <div class="main-grid" id="join">
             <h3>Join</h3>
