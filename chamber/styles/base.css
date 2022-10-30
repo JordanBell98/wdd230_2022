@@ -101,7 +101,7 @@ main {
     text-align: center;
 }
 #callToAction {
-    background-image: url("/images/Mountain-300-small.jpg");
+    background-image: url("/images/Mountain-300.jpg");
     background-position: center;
     background-size: 100%;
 }
@@ -154,4 +154,16 @@ footer img {
 .assignment-info ul{
     list-style-type: none;
     overflow: hidden;
+}
+.discovery-page {
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    padding: 20px;
+    grid-template-columns: 1fr;
+    background-color: #00540b;
+    color:#fff;
+}
+.discovery-page img {
+    width: 200px;
 }
