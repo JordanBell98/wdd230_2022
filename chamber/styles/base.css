@@ -101,7 +101,7 @@ main {
     text-align: center;
 }
 #callToAction {
-    background-image: url("/images/Mountain-300.jpg");
+    background-image: url("chamber/images/Mountain-300.jpg");
     background-position: center;
     background-size: 100%;
 }
