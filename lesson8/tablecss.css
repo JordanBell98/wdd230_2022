@@ -1,0 +1,17 @@
+:root {
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+table {
+    text-align: center;
+    margin: 0px;
+    background-color: darkcyan;
+    border: thin solid black;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    border: thin solid black;   
+}
+tr:nth-child(even) {
+	background-color: var(--zebra);
+}
