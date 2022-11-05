@@ -20,3 +20,6 @@ function days() {
     }
 }
 
+const joinDateCurrent = document.querySelector(".joinDate");
+if (joinDateCurrent) { joinDateCurrent.textContent = day }
+console.log(joinDateCurrent)

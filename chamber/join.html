@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
@@ -27,7 +26,7 @@
             <ul class="nav-menu">
                 <li class="nav-item"><a href="discover.html" class="nav-link">Discover</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Directory</a></li>
-                <li class="nav-item"><a href="join.html" class="nav-link">Join</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Join</a></li>
                 <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
             </ul>
             <div class="hamburger">
@@ -38,20 +37,35 @@
             <div class="date"></div>
         </nav>
     </header>
-    <main class="discovery-page">
-       <h1>Discovery page</h1>
-       <p>Last visited: <span id="lastVisit"></span></p>
-       <p>Redmond is a beautiful little town in the heart of Central Oregon.</p>
-       <img id="discoveryImg1" src="images/placeholder.png" data-src="images/redmondSign.jpg" alt="Redmond Sign">
-       <p>Redmond draws a lot of people from all over due to its central loctaion.</p>
-       <img id="discoveryImg2" src="images/placeholder.png" data-src="images/redmondOverlook.jpg" alt="Overlooking Redmond">
-       <p>Redmond's poplutation has been steadily growing since 1990 from 7,257 to 2021 at 35,582.</p>
-       <img id="discoveryImg3" src="images/placeholder.png" data-src="images/smithRock.jpg" alt="Image of Smith Rock">
-       <p>Redmond is close to all the action Smith Rock draws climbers from all over Oregon.</p>
-       <img id="discoveryImg4" src="images/placeholder.png" data-src="images/cove.jpeg" alt="Image of the Cove">
-       <p>The Cove Palisades State Park is near by offering water sports.</p>
-       <img id="discoveryImg5" src="images/placeholder.png" data-src="images/Mt-Bachelor.jpg" alt="Mt. Bachelor image">
-       <p>While Mt. Bachelor is a short drive in the other direction offering extraordinary skiing to all. This is what Makes Redmond Oregon such a great place to visit.</p>
+    <main class="join-page">
+       <h1>Join our Community</h1>
+       <form method="get" action="thankyou.html">
+       <fieldset>
+            <legend>Applicant Information</legend>
+            <label class="top">First Name* <input type="text" name="fname" required></label>
+            <label class="top">Last Name* <input type="text" name="lname" required></label>
+            <label class="top">Business Position Title <input id="busPos" type="text" name="busPos"></label>
+            <label class="top">Email* <input type="email" name="email" placeholder="someone@email.com" required></label>
+            <label class="top">Cell Phone Number* <input type="tel" name="phone" required></label>
+            <label class="top">Business Name/Title* <input type="text" name="busname" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>Membership levels</legend>
+            <label class="sbs"><input type="radio" name="membership" value="np">NP Membership (for non profit organizations and there is no fee)</label>
+            <label class="sbs"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="silver">Silver Membership</label>
+            <label class="sbs"><input type="radio" name="membership" value="gold">Gold Membership</label>
+        </fieldset>
+        <fieldset>
+            <legend>Business Description</legend>
+            <label class="top">Description <input id="busDescript" type="text" name="description"></label>
+        </fieldset>
+        <div>
+            <p hidden>Current Date and time: <span class="joinDate"></span></p>
+        </div>
+        <input class="button" type="submit" value="Join">
+       </form>
+
     </main>
 </body>
 <footer>
