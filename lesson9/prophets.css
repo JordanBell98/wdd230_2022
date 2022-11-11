@@ -1,0 +1,40 @@
+body {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  margin: 1rem;
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.cards {
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  color: #fff;
+}
+.cards img {
+    width: 100px;
+}
+section {
+    margin: 5px;
+    padding: 10px;
+    background-color: cadetblue;
+    border: 1px solid black;
+    flex-direction: column;
+}
+footer {
+    background-color: cadetblue;
+}
