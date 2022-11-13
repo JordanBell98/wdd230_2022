@@ -1,0 +1,76 @@
+{
+    "companies": [
+      {
+        "name": "Redmond Burger Company",
+        "address": "249 NW 6th St, Redmond, OR 97756",
+        "phoneNumber": "541-316-5262",
+        "website": "https://www.bendburger.com/",
+        "logo": "images/R-B-BC-Logo.webp",
+        "memberLevel": "Silver"
+      },
+      {
+        "name": "The Hideaway Redmond",
+        "address": "507 SW 8th St, Redmond, OR 97756",
+        "phoneNumber": "541-526-5989",
+        "website": "http://www.hideawaytavernredmond.com/",
+        "logo": "images/hideawayRedmond.png",
+        "memberLevel": "Gold"
+      },
+      {
+        "name": "One Street Down Cafe",
+        "address": "124 SW 7th St, Redmond, OR 97756",
+        "phoneNumber": "541-647-2341",
+        "website": "http://www.onestreetdowncafe.com/",
+        "logo": "images/oneStDown.png",
+        "memberLevel": "Silver"
+      },
+      {
+        "name": "Remington Arms",
+        "address": "1515 NW Fir Ave UNIT 55, Redmond, OR 97756",
+        "phoneNumber": "541-548-3601",
+        "website": "https://www.remingtonarmsipgliving.com/",
+        "logo": "images/remingtonArms.jpg",
+        "memberLevel": "Bronze"
+      },
+      {
+        "name": "Redmond Firearms LLC",
+        "address": "3003 SW Deschutes Ave, Redmond, OR 97756",
+        "phoneNumber": "541-279-7319",
+        "website": "http://redmondfirearms.com/",
+        "logo": "images/redmondFirearms.png",
+        "memberLevel": "Bronze"
+      },
+      {
+        "name": "Bend Tax Service LLC",
+        "address": "2525 SW Evening Primrose Ln, Redmond, OR 97756",
+        "phoneNumber": "541-388-1235",
+        "website": "http://www.bendtaxservice.com/",
+        "logo": "images/bendTax.jpg",
+        "memberLevel": "Bronze"
+      },
+      {
+        "name": "Events By Design, Event Rentals of Oregon",
+        "address": "2615 SW 30th St, Redmond, OR 97756",
+        "phoneNumber": "541-903-2139",
+        "website": "https://eventsbydesignoregon.com/",
+        "logo": "images/ebdrentals.webp",
+        "memberLevel": "Gold"
+      },
+      {
+        "name": "Bryan's Automotive Unlimited",
+        "address": "321 SE Black Butte Blvd, Redmond, OR 97756",
+        "phoneNumber": "541-548-0436",
+        "website": "http://www.bryansautomotiveunlimited.com/",
+        "logo": "images/BryanAuto.webp",
+        "memberLevel": "Silver"
+      },
+      {
+        "name": "Opportunity Foundation of Central Oregon",
+        "address": "3294 S Hwy 97, Redmond, OR 97756",
+        "phoneNumber": "541-548-2611",
+        "website": "http://www.opportunityfound.org/",
+        "logo": "images/Ofoco.png",
+        "memberLevel": "NP"
+      }
+    ]
+}

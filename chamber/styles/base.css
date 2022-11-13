@@ -223,3 +223,26 @@ form label.top input:required {
 form label.top input:required:valid {
     border-left: #012e07 solid 6px;
 }
+.directory {
+    display: block;
+    background-color: #00540b;
+    color: #fff;
+    text-align: center;
+    padding: 5px;
+}
+.cards {
+    display: grid; 
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    color: #fff;
+    text-align: center;
+  }
+.cards img {
+    width: 100px;
+}
+.cards section {
+    margin: 5px;
+    padding: 10px;
+    background-color: #012e07;
+    border: 1px solid black;
+    flex-direction: column;
+  }
